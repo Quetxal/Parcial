@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap');
+
+body{
+    margin: 0;
+    font-family: "Poppins" , sans-serif;
+}  
+.contenedor{
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}  
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.ul{
+    display: flex;
+}
+.ul li{
+   list-style: none;
+    margin: 18px;
+}
+.ul li a{
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+.ev-parcial{
+    margin-left: 10px;
+}
+.imagen-contenedor{
+    height: 88vh;
+    width: 100%;
+    background-image: url(../images/business.jpg);
+    background-size: cover;
+}
+.texto-imagen{
+    color: rgb(235, 235, 235);
+    position: absolute;
+    top: 35%;
+    width: 500px;
+    left: 15%;
+}
+.best-title{
+    font-size: 50px;
+}
+.combine-contenedor{
+    margin-top: 140px;
+    margin-bottom: 140px;
+    display:flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.combine-titulo{
+    margin-top: 20px;
+    width: 300px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.col-2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 55%;
+}
+.col{
+    display: flex;
+    flex-basis: 50%;
+    gap: 11px;
+}
+.col-h2{
+    display: inline-block;
+}
+.icono-col{
+    font-size: 30px;
+    color: rgb(149, 87, 192);
+}
+.p{
+    color: rgb(124, 122, 122);
+    font-size: 14px;
+}
+.boton{
+    border: 1px solid;
+    border-color: black;
+    padding: 10px;
+}
+#specialize{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: rgb(226, 226, 226);
+}
+.premium-services{
+    text-align: center;
+}
+.special-titulo{
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-basis-50{
+    background-color: rgb(255, 255, 255);
+    flex-basis: 45%;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-basis-50 h3 {
+    margin: 0;
+    display: inline-block;
+}
+.flex-basis-50 p{
+    text-align: left;
+    color: rgb(124, 122, 122);
+}
+.flex-basis-50 i{
+    padding: 10px;
+}
+#computer-man{
+    position: relative;
+}
+.computer{
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+.texto-computer{
+    position: absolute;
+    top: 30%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    left: 30%;
+}.computer-titulo{
+    font-size: 35px;
+    width: 500px;
+}
+.numeros-flex{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.numeros-flex li{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    list-style: none;
+}
+.numeros-flex li p{
+    font-size: 15px;
+    
+    font-weight: 400;
+}
+.updated{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;  
+    font-size: 33px;
+}
+#lastest{
+    display: flex;
+    margin-bottom: 120px;
+}
+.lastest-woman{
+    width: 100%;
+}
+#lastest div{
+    margin: 10px;
+}
+#footer{
+    display: flex;
+    padding: 80px;
+    background-color: #363c4b;
+}
+#footer p{
+    color: rgb(194, 192, 192);
+    font-weight: 400;
+    width: 350px;
+    
+}
+#footer h2{
+    color: rgb(255, 255, 255);
+}
+
+#lista{
+    display: flex;
+    padding-left: 170px;
+}
+#lista ul{
+    color: rgb(255, 255, 255);
+}
+#lista li{
+    color: rgb(194, 192, 192);
+    list-style: none;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#lista ul h2{
+    font-weight: 400;
+}
